@@ -17,8 +17,15 @@ git config --list
 ```
 git status
 ```	
+##**Updates the index using the current content found in the working tree, to prepare the content staged for the next commit**
+###Add all files in this directory
+```
 git add .
+```
+###Add specyfic file 
+```
 git add filename
+```
 
 git commit -m 'message'
 
@@ -29,4 +36,5 @@ git config --global user.email qbabor4444@gmail.com
 
 git remote -v
 //zrobic pull do innego repo
-// fetch
+// fetch merge 
+// branch
