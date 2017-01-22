@@ -27,4 +27,6 @@ git remote add origin 'https://github.com/qbabor4/tryGit.git'
 git config --global user.name jakub
 git config --global user.email qbabor4444@gmail.com
 
+git remote -v
 //zrobic pull do innego repo
+// fetch
