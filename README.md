@@ -1,4 +1,6 @@
-Make your current folder a git repository folder
+## Useful commands for git 
+
+**Make your current folder a git repository folder: **
 ```
 git init
 ```
