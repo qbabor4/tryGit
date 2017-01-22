@@ -24,7 +24,7 @@ git add .
 ```
 #####Add specyfic file: 
 ```
-git add filename
+git add <filename>
 ```
 **Stores the current contents of the index in a new commit along with a log message from the user describing the changes:**
 ```
@@ -38,7 +38,25 @@ git remote add origin 'https://github.com/qbabor4/tryGit.git'
 ```
 git remote -v
 ```
-
-//zrobic pull do innego repo
+**Send comited files to the adress given in remote**
+```
+git push origin master
+```
+**Get files from github in adress given in remote**
+```
+git pull
+```
+**See changes on pulled files**
+```
+git diff HEAD
+```
+**Remove file from added files**
+```
+git reset <filename>
+```
+**Go back to the last commit for specyfic file**
+```
+git checkout -- <filename>
+```
 // fetch merge 
 // branch
