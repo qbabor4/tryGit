@@ -58,5 +58,10 @@ git reset <filename>
 ```
 git checkout -- <filename>
 ```
+**Create branch**
+```
+git branch <branchname>
+```
+
 // fetch merge 
 // branch
