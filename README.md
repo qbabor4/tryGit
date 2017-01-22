@@ -1,6 +1,7 @@
 Make your current folder a git repository folder
+```
 git init
-
+```
 git status
 
 git add .
