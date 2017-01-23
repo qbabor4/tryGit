@@ -62,6 +62,15 @@ git checkout -- <filename>
 ```
 git branch <branchname>
 ```
+**Switch between branches**
+```
+git checkout <branchname>
+```
+**See all branches**
+```
+git branch
+```
+
 
 // fetch merge 
 // branch
