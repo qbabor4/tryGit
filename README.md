@@ -74,5 +74,9 @@ git branch
 ```
 git merge <branchname>
 ```
+**Delete branch**
+```
+git branch -d <branchname>
+```
 // fetch merge 
 // branch
