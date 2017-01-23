@@ -70,7 +70,9 @@ git checkout <branchname>
 ```
 git branch
 ```
-
-
+**Merge changes from current branch with specified branch**
+```
+git merge <branchname>
+```
 // fetch merge 
 // branch
