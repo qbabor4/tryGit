@@ -17,12 +17,12 @@ git config --list
 ```
 git status
 ```	
-####**Updates the index using the current content found in the working tree, to prepare the content staged for the next commit**
+#### **Updates the index using the current content found in the working tree, to prepare the content staged for the next commit**
 #####Add all files in this directory:
 ```
 git add .
 ```
-#####Add specyfic file: 
+##### Add specyfic file: 
 ```
 git add <filename>
 ```
@@ -33,6 +33,10 @@ git commit -m 'message'
 **Set adress where files after commiting will be send and from where they will be pulled**
 ```
 git remote add origin 'https://github.com/qbabor4/tryGit.git'
+```
+**Change remote directory**
+```
+git remote set-url origin git://new.url.here
 ```
 **See remote options**
 ```
@@ -46,6 +50,12 @@ git push origin master
 ```
 git pull
 ```
+
+**With Allowing unrelated histories**
+```
+git pull --allow-unrelated-histories
+```
+
 **See changes on pulled files**
 ```
 git diff HEAD
